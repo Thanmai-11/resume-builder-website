@@ -1,10 +1,8 @@
 # Resume Builder Pro
 
-An upgrade of the original vanilla HTML/CSS/JS Interactive Resume Builder
-into a full-stack application:
+An Interactive Resume Builder (full-stack application):
 
-- **Frontend:** React (Vite) — the same live form-to-preview experience as
-  the original, rebuilt as componentized, state-driven React instead of
+- **Frontend:** React (Vite) — a live form-to-preview experience, built as componentized, state-driven React instead of
   manual DOM manipulation. Adds account login, multiple saved resumes,
   and a template picker (Modern / Classic / Compact).
 - **Backend:** Django + Django REST Framework — user accounts (token
@@ -85,12 +83,3 @@ header.
   deployable to GitHub Pages, Netlify, or Vercel exactly like the
   original single-page project. Set `VITE_API_BASE_URL` to the deployed
   backend's URL before building.
-
-## What's carried over from the original project
-
-Every feature from the original `resume-builder` repo is present:
-personal info, profile summary, dynamic education/experience rows,
-skill chips + custom skills, live form-to-preview sync, animated
-progress bar, "Clear All", and PDF export. Nothing was dropped — the
-upgrade adds accounts, persistence, templates, and a second PDF path
-on top.
